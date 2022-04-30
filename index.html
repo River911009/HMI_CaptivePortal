@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HMI Control Panel</title>
+    <script>
+    setInterval(function(){
+      var xhttp=new XMLHttpRequest();
+      xhttp.onreadystatechange=function(){
+        if(this.readyState==4&&this.status==200){
+          document.getElementById("text").innerHTML=this.responseText;
+        }
+      };
+      xhttp.open("GET","/getData",true);
+      xhttp.send();
+    },2000);
+    </script>
+  </head>
+  <body>
+    <div id="text"></div>
+    <form action="/setData" method="get">
+      <input type="checkbox" value="GPIO0" /><label>GPIO0</label><br />
+      <input type="checkbox" value="GPIO1" /><label>GPIO1</label><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
