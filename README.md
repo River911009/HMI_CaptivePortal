@@ -69,9 +69,13 @@ Checkout the [Document](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=w
     </form>
     ```
 
-2. main.py
+2. boot.py
 
-    > In the *main.py*, this module will setup as a WiFi AP.
+    This script will be executed first before main script.
+
+3. main.py
+
+    In the *main.py*, this module will setup as a WiFi AP. Then, DNS and HTTP service start.
 
     CaptivePortal:
     - start(self,ip,submask,gateway,dns)
@@ -80,7 +84,7 @@ Checkout the [Document](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=w
     - handle_dns(self,sock,event,others)
     - cleanup(self)
 
-3. Server.py
+4. Server.py
 
     > in another
 
@@ -108,7 +112,7 @@ Checkout the [Document](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=w
     - buff_advance(self,c,bytes_written)
     - close(self,s)
 
-4. httpHandler.py
+5. httpHandler.py
 
     > in the other
 
