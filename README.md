@@ -19,9 +19,9 @@ The webpage is fully customized to control hardware peripherals.
 ### 1. Hardware
 
 This system was developed on ESP-12F modeule.  
-Checkout the [Document](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiNxb_vtLz3AhUT4WEKHT9xCB0QFnoECAMQAQ&url=https%3A%2F%2Fdocs.ai-thinker.com%2F_media%2Fesp8266%2Fdocs%2Fesp-12f_product_specification_en.pdf&usg=AOvVaw2qVaxjxbbD463zz9tHMBif "AI-Thinker ESP-12F") or the schematic below to prepare hardware platform.  
+Checkout the [Document](https://docs.ai-thinker.com/_media/esp8266/docs/esp-12f_product_specification_en.pdf) or the schematic below to prepare hardware platform.  
 
-![example schematic](assets/ESP12F_DHT11.png)
+![example schematic](images/ESP12F_DHT11.png)
 
 ---
 
