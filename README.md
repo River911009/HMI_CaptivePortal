@@ -10,9 +10,9 @@ The webpage is fully customized to control hardware peripherals.
 
 1. Hardware
 2. Dependencies
-3. Source code description
-4. Guide of the system
-5. Done check list
+3. Source Code Description
+4. Guide of the System
+5. Done Check List
 
 ---
 
@@ -35,7 +35,7 @@ Checkout the [Document](https://docs.ai-thinker.com/_media/esp8266/docs/esp-12f_
 
 ---
 
-### 3. Source code description
+### 3. Source Code Description
 
 1. index.html
 
@@ -118,7 +118,7 @@ Checkout the [Document](https://docs.ai-thinker.com/_media/esp8266/docs/esp-12f_
 
 ---
 
-### 4. Guide of the system
+### 4. Guide of the System
 
 1. Power on
 
@@ -128,7 +128,7 @@ Checkout the [Document](https://docs.ai-thinker.com/_media/esp8266/docs/esp-12f_
 
 ---
 
-### 5. Done check list
+### 5. Done Check List
 
 - [ ] Startup as a WiFi AP
 - [ ] Create http and dns service
